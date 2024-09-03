@@ -1,0 +1,1 @@
+variable1 = 10variable2 = 20if variable1 > variable2:print("Variable1 es mayor")else:print("Variable2 es mayor o igual")
