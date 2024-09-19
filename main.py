@@ -12,6 +12,5 @@ def main():
     # Recorrer el archivo preprocesado
     recorrer_archivo(output_path)
 
-
 if __name__ == "__main__":
     main()
