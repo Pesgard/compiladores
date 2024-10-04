@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb2e6b39-7978-4043-a1af-3c25456e6907" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Automatas/automataDigitos.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automatas/automataEnteros.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automatas/identificadores.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Automatas/palabrasReservadas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiladores.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiladores.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="bb2e6b39-7978-4043-a1af-3c25456e6907" name="Changes" comment="Se agregaron los tokens">
+      <change afterPath="$PROJECT_DIR$/Automatas/automataSimbolosEspeciales.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/AutomataID.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataDecimales.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizadorLexico/AnalizadorLexico.py" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizadorLexico/AnalizadorLexico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/OperadoresLogicos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/OperadoresLogicos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/automataDecimales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataDecimales.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/automataDigitos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataDigitos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/automataEnteros.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataEnteros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/identificadores.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/identificadores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/palabrasReservadas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/palabrasReservadas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocesador/preprocesador.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocesador/preprocesador.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +38,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pesgard&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Pesgard/compiladores&quot;,
+    &quot;accountId&quot;: &quot;d4da0c89-fdc6-4425-a18e-d4f13dab4fce&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -47,23 +61,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.__init__.executor": "Run",
-    "Python.automataDecimales.executor": "Run",
-    "Python.automataDigitos.executor": "Run",
-    "Python.automataEnteros.executor": "Run",
-    "Python.identificadores.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.palabrasReservadas.executor": "Run",
-    "Python.preprocesador.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/carrera/Edgar/compiladores",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
+    &quot;Python.automataDecimales.executor&quot;: &quot;Run&quot;,
+    &quot;Python.automataDigitos.executor&quot;: &quot;Run&quot;,
+    &quot;Python.automataEnteros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.identificadores.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.palabrasReservadas.executor&quot;: &quot;Run&quot;,
+    &quot;Python.preprocesador.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/carrera/Edgar/compiladores&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.main">
     <configuration name="automataDecimales" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="compiladores" />
@@ -178,9 +192,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.automataDecimales" />
         <item itemvalue="Python.identificadores" />
         <item itemvalue="Python.palabrasReservadas" />
-        <item itemvalue="Python.automataDecimales" />
         <item itemvalue="Python.automataEnteros" />
       </list>
     </recent_temporary>
@@ -201,6 +215,40 @@
       <option name="presentableId" value="Default" />
       <updated>1725329263951</updated>
     </task>
+    <task id="LOCAL-00001" summary="Se agregaron los automatas de todos los tipos">
+      <option name="closed" value="true" />
+      <created>1726775491413</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726775491413</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Se agregaron los tokens">
+      <option name="closed" value="true" />
+      <created>1728056523421</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728056523421</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge pull request #1 from Pesgard/dev&#10;&#10;Carpeta para los automatas" />
+    <MESSAGE value="Se agregaron los automatas de todos los tipos" />
+    <MESSAGE value="Se agregaron los tokens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agregaron los tokens" />
   </component>
 </project>

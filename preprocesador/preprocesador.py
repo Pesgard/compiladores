@@ -1,4 +1,5 @@
 import os
+import re
 
 
 def preprocesar_archivo(input_path: str, output_path: str):
@@ -8,15 +9,25 @@ def preprocesar_archivo(input_path: str, output_path: str):
     with open(input_path, 'r') as infile:
         lines = infile.readlines()
 
-    cleaned_lines = []
-    for line in lines:
-        # Eliminar comentarios, espacios en blanco, líneas vacías y tabuladores
-        cleaned_line = line.split('#')[0].strip()  # Eliminar comentarios y espacios en blanco
-        if cleaned_line:  # Si la línea no está vacía después de limpiar
-            cleaned_lines.append(cleaned_line.replace('\t', ''))  # Eliminar tabuladores
+    cleaned_code = []
 
+    for line in lines:
+        # Eliminar comentarios y espacios en blanco al final de la línea
+        cleaned_line = line.split('#')[0].strip()
+
+        # Solo añadir la línea si no está vacía
+        if cleaned_line:
+            # Insertar espacios alrededor de operadores y paréntesis
+            cleaned_line = re.sub(r'(\S)([=+><():])(\S)', r'\1 \2 \3', cleaned_line)
+            cleaned_line = re.sub(r'([=+><():])', r' \1 ', cleaned_line)
+            cleaned_code.append(cleaned_line)
+
+    # Unir todas las líneas en una sola, separadas por un espacio
+    final_output = ' '.join(cleaned_code)
+
+    # Escribir el resultado final en el archivo de salida
     with open(output_path, 'w') as outfile:
-        for line in cleaned_lines:
-            outfile.write(line)
+        outfile.write(final_output)
 
     print(f"Archivo procesado y guardado en {output_path}")
+

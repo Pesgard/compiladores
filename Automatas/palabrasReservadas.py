@@ -32,10 +32,10 @@ class AutomataPalabrasReservadas:
         return self.estado_actual in self.estados_aceptacion
 
 
-# Ejemplo de uso
-automata = AutomataPalabrasReservadas()
-cadena = "SURSUMVERSUS"  # Cadena a ser procesada
-if automata.procesar_cadena(cadena):
-    print(f"La cadena '{cadena}' es una palabra reservada válida.")
-else:
-    print(f"La cadena '{cadena}' no es una palabra reservada válida.")
+# # Ejemplo de uso
+# automata = AutomataPalabrasReservadas()
+# cadena = "SURSUMVERSUS"  # Cadena a ser procesada
+# if automata.procesar_cadena(cadena):
+#     print(f"La cadena '{cadena}' es una palabra reservada válida.")
+# else:
+#     print(f"La cadena '{cadena}' no es una palabra reservada válida.")

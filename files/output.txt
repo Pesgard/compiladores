@@ -1,1 +1,1 @@
-variable1 = 10 variable2 = 20 if variable1 > variable2 :print (" Variable1 es mayor ") else:print (" Variable2 es mayor o igual ")
+variable1  =  10 variable2  =  20 variable3 =  variable1  +  variable2 if variable1  >  variable2 :  print  (  "Variable1 es mayor" )  else :  print  (  "Variable2 es mayor o igual" ) 
