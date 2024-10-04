@@ -2,6 +2,8 @@
 variable1 = 10    # Asignación de valor
     variable2 = 20  # Otro comentario
 
+variable3= variable1 + variable2  # Suma de variabless
+
 if variable1 > variable2:
     # Esta es una condición
     print("Variable1 es mayor")  # Imprime un mensaje
