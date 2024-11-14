@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb2e6b39-7978-4043-a1af-3c25456e6907" name="Changes" comment="Se agregaron los tokens">
-      <change afterPath="$PROJECT_DIR$/Automatas/automataSimbolosEspeciales.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnalizadorLexico/AnalizadorLexico.py" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizadorLexico/AnalizadorLexico.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/OperadoresLogicos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/OperadoresLogicos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automatas/automataDecimales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataDecimales.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automatas/automataDigitos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataDigitos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automatas/automataEnteros.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataEnteros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/identificadores.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/identificadores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/automataSimbolosEspeciales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataSimbolosEspeciales.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automatas/palabrasReservadas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/palabrasReservadas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocesador/preprocesador.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocesador/preprocesador.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,10 +187,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.automataDecimales" />
         <item itemvalue="Python.identificadores" />
         <item itemvalue="Python.palabrasReservadas" />
-        <item itemvalue="Python.automataEnteros" />
       </list>
     </recent_temporary>
   </component>

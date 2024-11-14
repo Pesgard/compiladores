@@ -45,10 +45,10 @@ class AutomataDecimales:
         return self.es_aceptado()
 
 
-# # Ejemplo de uso
-# automata = AutomataDecimales()
-# cadena = "123.45"  # Cadena a ser procesada
-# if automata.procesar_cadena(cadena):
-#     print(f"La cadena '{cadena}' es un número decimal válido.")
-# else:
-#     print(f"La cadena '{cadena}' no es un número decimal válido.")
+# Ejemplo de uso
+automata = AutomataDecimales()
+cadena = "123.45"  # Cadena a ser procesada
+if automata.procesar_cadena(cadena):
+    print(f"La cadena '{cadena}' es un número decimal válido.")
+else:
+    print(f"La cadena '{cadena}' no es un número decimal válido.")

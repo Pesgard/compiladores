@@ -32,7 +32,7 @@ class AutomataPalabrasReservadas:
         return self.estado_actual in self.estados_aceptacion
 
 
-# # Ejemplo de uso
+# # # Ejemplo de uso
 # automata = AutomataPalabrasReservadas()
 # cadena = "SURSUMVERSUS"  # Cadena a ser procesada
 # if automata.procesar_cadena(cadena):
