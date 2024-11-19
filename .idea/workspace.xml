@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb2e6b39-7978-4043-a1af-3c25456e6907" name="Changes" comment="Se agregaron los tokens">
+      <change afterPath="$PROJECT_DIR$/ArbolSintactico/Abstracto/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArbolSintactico/Abstracto/crear.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/automataDecimales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataDecimales.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/automataDigitos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataDigitos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/automataEnteros.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataEnteros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/automataSimbolosEspeciales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataSimbolosEspeciales.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/palabrasReservadas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/palabrasReservadas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizadorLexico/AnalizadorLexico.py" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizadorLexico/AnalizadorLexico.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728056523421</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se agregaron los tokens">
+      <option name="closed" value="true" />
+      <created>1731558141751</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731558141751</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

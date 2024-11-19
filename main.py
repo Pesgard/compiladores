@@ -1,3 +1,5 @@
+from ArbolSintactico.Abstracto import NodoNumero, NodoIdentificador, NodoOperador
+from ArbolSintactico.Abstracto.crear import construir_ast
 from preprocesador.preprocesador import preprocesar_archivo
 from AnalizadorLexico.AnalizadorLexico import ListaEnlazada
 from Automatas.automataEnteros import AutomataEnteros
@@ -51,6 +53,7 @@ def analizar_archivo(archivo):
             lista_tokens.agregar_token(palabra, tipo, valor, columna, renglon)
 
     return lista_tokens
+
 if __name__ == "__main__":
     input_path = 'files/input.txt'
     output_path = 'files/output.txt'
@@ -61,3 +64,21 @@ if __name__ == "__main__":
     # Analiza el archivo preprocesado y genera los tokens
     lista_tokens = analizar_archivo(output_path)
     lista_tokens.imprimir_lista()
+
+    # Construye el AST a partir de la lista de tokens
+    ast = construir_ast(lista_tokens)
+
+    # Imprime el contenido del AST
+    def imprimir_ast(nodo, nivel=0):
+        indent = "  " * nivel
+        if isinstance(nodo, NodoNumero):
+            print(f"{indent}Número: {nodo.valor}")
+        elif isinstance(nodo, NodoIdentificador):
+            print(f"{indent}Identificador: {nodo.nombre}")
+        elif isinstance(nodo, NodoOperador):
+            print(f"{indent}Operador: {nodo.operador}")
+        for hijo in nodo.hijos:
+            imprimir_ast(hijo, nivel + 1)
+
+    print("\nContenido del Árbol Sintáctico Abstracto (AST):")
+    imprimir_ast(ast)
