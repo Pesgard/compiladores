@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb2e6b39-7978-4043-a1af-3c25456e6907" name="Changes" comment="Se agregaron los tokens">
-      <change afterPath="$PROJECT_DIR$/ArbolSintactico/Abstracto/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArbolSintactico/Abstracto/crear.py" afterDir="false" />
+    <list default="true" id="bb2e6b39-7978-4043-a1af-3c25456e6907" name="Changes" comment="Arboles sintacticos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnalizadorLexico/AnalizadorLexico.py" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizadorLexico/AnalizadorLexico.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArbolSintactico/Abstracto/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArbolSintactico/Abstracto/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArbolSintactico/Abstracto/crear.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArbolSintactico/Abstracto/crear.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731558141751</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Arboles sintacticos">
+      <option name="closed" value="true" />
+      <created>1732031726219</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732031726219</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +258,7 @@
     <MESSAGE value="Merge pull request #1 from Pesgard/dev&#10;&#10;Carpeta para los automatas" />
     <MESSAGE value="Se agregaron los automatas de todos los tipos" />
     <MESSAGE value="Se agregaron los tokens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agregaron los tokens" />
+    <MESSAGE value="Arboles sintacticos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Arboles sintacticos" />
   </component>
 </project>
