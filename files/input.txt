@@ -1,11 +1,10 @@
+UAS
 # Este es un comentario
 variable1 = 10    # Asignación de valor
-variable2 = 20    # Otro comentario
-
-si = 10
-
-si (variable1 > variable2) :
+variable2  20    # Otro comentario
+variable =
+si(variable1 > variable2):
     # Esta es una condición
-    escribir ( " Variable1 es mayor " )  # Imprime un mensaje
-sino :
-    escribir ( " Variable2 es mayor o igual " )  # Otra línea
+    escribir("Variable1 es mayor"  # Imprime un mensaje
+sino:
+    escribir ( " Variable2 es mayor o igual")  # Otra línea

@@ -1,4 +1,4 @@
-#from preprocesador.preprocesador import preprocesar_archivo
+from preprocesador.preprocesador import preprocesar_archivo
 from AnalizadorLexico.AnalizadorLexico import ListaEnlazada
 from Automatas.automataEnteros import AutomataEnteros
 from Automatas.automataDecimales import AutomataDecimales
@@ -57,11 +57,11 @@ def analizar_archivo(archivo):
 
 
 if __name__ == "__main__":
-   # input_path = 'files/input.txt'
+    input_path = 'files/input.txt'
     output_path = 'files/output.txt'
 
     # Preprocesa el archivo de entrada y guarda el resultado en el archivo de salida
-  #  preprocesar_archivo(input_path, output_path)
+    preprocesar_archivo(input_path, output_path)
 
     # Analiza el archivo preprocesado y genera los tokens
     lista_tokens = analizar_archivo(output_path)

@@ -1,32 +1,43 @@
 class AutomataPalabrasReservadas:
     def __init__(self):
-        # Estado inicial del autómata
         self.estado_inicial = 0
-        # Conjunto de estados de aceptación
         self.estados_aceptacion = {1}
-        # Lista de palabras reservadas
+        self.estado_actual = self.estado_inicial
+        self.transiciones = {
+            0: {},  # Este estado se llenará con transiciones al inicializar.
+        }
         self.palabras_reservadas = {
             "si", "sino", "mientras", "inicio", "fin", "UAS", "SURSUMVERSUS",
             "var", "const", "decimal", "entero", "cadena", "booleano", "escribir", "leer"
         }
-        # Estado actual del autómata
-        self.estado_actual = self.estado_inicial
+        self.inicializar_transiciones()
+
+    def inicializar_transiciones(self):
+        for palabra in self.palabras_reservadas:
+            estado = self.estado_inicial
+            for caracter in palabra:
+                if estado not in self.transiciones:
+                    self.transiciones[estado] = {}
+                if caracter not in self.transiciones[estado]:
+                    nuevo_estado = len(self.transiciones)
+                    self.transiciones[estado][caracter] = nuevo_estado
+                estado = self.transiciones[estado][caracter]
+            # Marcar el último estado como de aceptación
+            if estado not in self.transiciones:
+                self.transiciones[estado] = {}
+            self.transiciones[estado]['aceptacion'] = True
 
     def reiniciar(self):
-        # Reinicia el estado actual al estado inicial
         self.estado_actual = self.estado_inicial
 
     def procesar_cadena(self, cadena):
-        # Reinicia el autómata antes de procesar la cadena
         self.reiniciar()
-        # Verifica si la cadena es una palabra reservada
-        if cadena in self.palabras_reservadas:
-            self.estado_actual = 1
-        else:
-            self.estado_actual = None
-        # Retorna True si la cadena es aceptada, False en caso contrario
+        for caracter in cadena:
+            if self.estado_actual not in self.transiciones or caracter not in self.transiciones[self.estado_actual]:
+                self.estado_actual = None
+                break
+            self.estado_actual = self.transiciones[self.estado_actual][caracter]
         return self.es_aceptado()
 
     def es_aceptado(self):
-        # Verifica si el estado actual es un estado de aceptación
-        return self.estado_actual in self.estados_aceptacion
+        return self.estado_actual is not None and 'aceptacion' in self.transiciones[self.estado_actual]

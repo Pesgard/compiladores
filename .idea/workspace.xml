@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb2e6b39-7978-4043-a1af-3c25456e6907" name="Changes" comment="Arboles sintacticos">
-      <change afterPath="$PROJECT_DIR$/AnalizadorSintactico/ValidadorSintactico.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ArbolSintactico/Abstracto/_init_.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiladores.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiladores.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArbolSintactico/Abstracto/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArbolSintactico/Abstracto/crear.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArbolSintactico/Abstracto/crear.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/automataDecimales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataDecimales.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/automataDigitos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataDigitos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/automataEnteros.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataEnteros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/automataSimbolosEspeciales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataSimbolosEspeciales.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automatas/identificadores.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/identificadores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizadorSintactico/ValidadorSintactico.py" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizadorSintactico/ValidadorSintactico.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Automatas/palabrasReservadas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/palabrasReservadas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocesador/preprocesador.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocesador/preprocesador.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732031726219</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Arboles sintacticos">
+      <option name="closed" value="true" />
+      <created>1734672489115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734672489115</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

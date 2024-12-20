@@ -1,19 +1,12 @@
 UAS
 variable1 = 10
+variable2 20
+variable =
 
+si ( variable1 > variable2 ) :
 
+escribir ( "Variable1 es mayor"
 
-si(variable1<variable2):
-    escribir( " variable1 " )
 sino:
-    escribir(" variable2")
 
-
-si(variable1<variable2):
-    escribir( " variable1 "
-sino:
-    escribir( " variable2 " )
-
-
-
-mientras( variable1 < variable2 ) :
+escribir ( " Variable2 es mayor o igual" )
