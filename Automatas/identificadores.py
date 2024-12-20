@@ -48,12 +48,3 @@ class AutomataIdentificadores:
                 return False
         # Retorna True si la cadena es aceptada, False en caso contrario
         return self.es_aceptado()
-
-
-# # Ejemplo de uso
-# automata = AutomataIdentificadores()
-# cadena = "variable_1"  # Cadena a ser procesada
-# if automata.procesar_cadena(cadena):
-#     print(f"La cadena '{cadena}' es un identificador válido.")
-# else:
-#     print(f"La cadena '{cadena}' no es un identificador válido.")

@@ -2,8 +2,10 @@
 variable1 = 10    # Asignación de valor
 variable2 = 20    # Otro comentario
 
-if variable1 > variable2 :
+si = 10
+
+si (variable1 > variable2) :
     # Esta es una condición
-    print ( " Variable1 es mayor " )  # Imprime un mensaje
-else :
-    print ( " Variable2 es mayor o igual " )  # Otra línea
+    escribir ( " Variable1 es mayor " )  # Imprime un mensaje
+sino :
+    escribir ( " Variable2 es mayor o igual " )  # Otra línea

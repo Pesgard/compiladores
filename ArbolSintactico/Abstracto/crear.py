@@ -1,4 +1,4 @@
-from ArbolSintactico.Abstracto import NodoNumero, NodoIdentificador, NodoOperador
+from ArbolSintactico.Abstracto._init_ import NodoNumero, NodoIdentificador, NodoOperador
 
 
 def construir_ast(lista_tokens):

@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb2e6b39-7978-4043-a1af-3c25456e6907" name="Changes" comment="Arboles sintacticos">
+      <change afterPath="$PROJECT_DIR$/AnalizadorSintactico/ValidadorSintactico.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ArbolSintactico/Abstracto/_init_.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiladores.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiladores.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArbolSintactico/Abstracto/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArbolSintactico/Abstracto/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArbolSintactico/Abstracto/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ArbolSintactico/Abstracto/crear.py" beforeDir="false" afterPath="$PROJECT_DIR$/ArbolSintactico/Abstracto/crear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/automataDecimales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataDecimales.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/automataDigitos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataDigitos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/automataEnteros.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataEnteros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/automataSimbolosEspeciales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/automataSimbolosEspeciales.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/identificadores.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/identificadores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automatas/palabrasReservadas.py" beforeDir="false" afterPath="$PROJECT_DIR$/Automatas/palabrasReservadas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,8 +50,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Pesgard/compiladores&quot;,
-    &quot;accountId&quot;: &quot;d4da0c89-fdc6-4425-a18e-d4f13dab4fce&quot;
+    &quot;url&quot;: &quot;https://github.com/Pesgard/compiladores.git&quot;,
+    &quot;accountId&quot;: &quot;6e58d8ac-8608-42ed-8d59-61d046747c0a&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -66,7 +77,7 @@
     &quot;Python.preprocesador.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;correcciones&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/carrera/Edgar/compiladores&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
@@ -195,7 +206,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
